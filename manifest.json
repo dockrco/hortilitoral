@@ -1,0 +1,17 @@
+{
+  "name": "HortiLitoral PWA",
+  "short_name": "HortiLitoral",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#16a34a",
+  "orientation": "portrait",
+  "description": "Aplicativo de gestão logística e controle FIFO para a HortiLitoral em Mongaguá.",
+  "icons": [
+    {
+      "src": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/svgs/solid/seedling.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
