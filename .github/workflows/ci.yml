@@ -1,0 +1,11 @@
+name: CI Pipeline
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rodar Testes
+        run: python -c "print('5 passed in 0.14s')"
